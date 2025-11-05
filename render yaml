@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: omega-ai-ultimate
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: BOT_TOKEN
+        fromSecret: true
+      - key: ADMIN_IDS
+        fromSecret: true
+      - key: ADMIN_USERNAME
+        fromSecret: true
+      - key: DEEPSEEK_API_KEY
+        fromSecret: true
+      - key: GROQ_API_KEY
+        fromSecret: true
+      - key: HUGGINGFACE_API_KEY
+        fromSecret: true
+      - key: OPENROUTER_API_KEY
+        fromSecret: true
