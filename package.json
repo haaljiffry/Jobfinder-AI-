@@ -1,0 +1,25 @@
+{
+  "name": "omega-ai-ultimate",
+  "version": "1.0.0",
+  "description": "OMEGA AI ULTIMATE - World's Most Advanced Job AI",
+  "main": "omega-ai-system.js",
+  "scripts": {
+    "start": "node omega-ai-system.js",
+    "dev": "node omega-ai-system.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "ai",
+    "telegram-bot",
+    "job-finder",
+    "quantum-ai"
+  ],
+  "author": "OMEGA AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
